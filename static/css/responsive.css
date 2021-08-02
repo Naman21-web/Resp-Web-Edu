@@ -1,0 +1,132 @@
+@media only screen and (max-width:692px){
+    .box-main{
+        flex-direction: column-reverse;
+    }
+    .navbar{
+        flex-direction: column;
+        transition: all 0.4s ease-out;
+        height: 344px;
+    }
+    .nav-list{
+        flex-direction: column;
+    }
+    .rightNav{
+        text-align: center;
+    }
+    #search{
+        width: 100%;
+    }
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 52px;
+    }
+    .v-class-resp{
+        opacity: 0;
+    }
+    .secRight{
+        height: 100%;
+        flex-wrap: wrap;
+        max-width: 100%;
+        margin: 5%;
+    }
+    .secLeft{
+        height: 100%;
+       /* height: 850px; */
+        flex-wrap: wrap;
+    }
+    .parasright{
+        padding: 0px;
+    }
+    .parasleft{
+        padding: 0px;
+       /* margin-left: 113px;
+        margin-right: 55px;*/
+    }
+    .imgFluid{
+        margin-left: 86px;
+        padding-top: 30px;
+        width: 60%;
+        height: 254px;
+    }
+    /*.text-left-small{
+        width: 245%;
+        margin-left: -190px;
+    }*/
+}
+
+@media (max-width:285px) and (min-width:209px){
+    .button{
+        width: 58px;
+    }
+    .form{
+        margin-left: 36px;
+    }
+    .text{
+        font-size: 15px;
+    }
+}
+
+@media (max-width:419px) and (min-width:209px){
+    .box-main{
+        flex-direction: column-reverse;
+    }
+    .text-big{
+        font-size: 19px;
+    }
+    .text-small{
+        font-size: 11px;
+    }
+    .buttons{
+        font-size: 10px;
+    }
+    .btn{
+        padding: 3px;
+        margin: 5px;
+        font-size: 12px
+    }
+    .imgFluid{
+        margin-left: 42px;
+        height: 122px;
+        border-radius: 81px;
+    }
+}
+
+@media (max-width:209px) and (min-width: 100px){
+    .box-main{
+        flex-direction: column-reverse;
+    }
+    .imgFluid{
+        margin-left: 33px;
+        height: 90px;
+    }
+    .text-big{
+        font-size: 17px;
+    }
+    .text-small{
+        font-size: 9px;
+    }
+    .btn{
+        padding: 3px;
+        margin: 4px;
+        font-size: 10px
+    }
+    .text{
+        font-size: 13px;
+        margin-left: -4%;
+    }
+    #phoneno{
+        margin-bottom: -7px;
+    }
+    .button{
+        width: 50px;
+        margin-left: 22%;
+        font-size: 11px;
+    }
+    footer{
+        font-size: 7px;
+    }
+}
+        
+
